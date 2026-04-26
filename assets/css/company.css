@@ -14,8 +14,6 @@ body {
 
 /* main */
 #main .container {
-  width: 100%;
-  height: auto;
   background-color: #fff;
   display: flex;
   flex-wrap: wrap;
@@ -141,15 +139,13 @@ body {
 }
 
 /* brand story */
-.brand_story {
-  /* background-color: #fffaad; */
-}
+
 .brand_inner {
   display: flex;
-  margin: 155px 0 45px;
-  justify-content: center;
+  margin: 155px 0;
+  justify-content: space-evenly;
   align-items: center;
-  gap: 65px;
+  /* gap: 65px; */
 }
 .logo_img {
   width: 30%;
@@ -188,9 +184,8 @@ body {
   margin-top: 0;
 }
 
-/* 컬러공 크기 아직 미정인데 좀 키워도 괜찮을 것 같아서~ */
 .color_inner .item img {
-  width: 250px;
+  width: 300px; /* 컬러공 크기*/
 }
 .color_inner .item:nth-child(1) {
   z-index: 1;
@@ -317,6 +312,9 @@ body {
   }
 }
 @media (max-width: 834px) {
+  #main .container {
+    margin-right: 30px;
+  }
   #main h5 {
     font-size: 18px;
   }
@@ -333,10 +331,13 @@ body {
   #main .container {
     padding-bottom: 100px;
   }
+  #main h2 {
+    padding-top: 100px;
+  }
   #main h2,
   #main h5,
   #main p {
-    padding-left: 55px;
+    padding-left: 50px;
   }
   #main h5 span {
     display: block;
@@ -432,15 +433,26 @@ body {
     width: 57px;
     padding: 11px 0 18px 0;
   }
-  .identity_list .item h5 {
-    /* font-size: 14px; */
-  }
+  /* .identity_list .item h5 {
+    font-size: 14px;
+  } */
   .identity_list .item p {
     word-break: keep-all;
   }
 }
 
 @media (max-width: 480px) {
+  #main h2 {
+    font-size: 35px;
+  }
+  #main h6 {
+    font-size: 18px;
+  }
+  #main h2,
+  #main h5,
+  #main p {
+    padding-left: 25px;
+  }
   .brand_inner {
     display: block;
     text-align: center;
