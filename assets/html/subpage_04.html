@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NFNL 회사소개 - 이따꾬</title>
+    <title>NFNL 회사소개 - sub4</title>
     <!-- seo -->
     <!-- 저자 -->
     <!-- 사이트 소개 -->
@@ -28,29 +28,82 @@
     <!-- X파일 css -->
 
     <!-- css섹션 -->
-    <link rel="stylesheet" href="../css/company.css" />
+    <link rel="stylesheet" href="../css/sub_4_company.css" />
   </head>
   <body>
     <!-- header -->
-    <!-- <header id="header">
+    <div id="mNav">
+      <button><i class="fa-solid fa-bars"></i></button>
+      <nav class="mNav_nav">
+        <ul>
+          <li><a href="subpage_01.html">이달의 음식</a></li>
+          <li>
+            <div class="sub">
+              <a href="subpage_02_b1.html">지역별 소개</a
+              ><i class="fa-solid fa-angle-down" style="color: #fff"></i>
+            </div>
+            <ul class="submenu">
+              <li><a href="subpage_02_b1.html">지역별</a></li>
+              <li><a href="subpage_02_kr.html">음식별</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="sub">
+              <a href="subpage_03.html">커뮤니티</a
+              ><i class="fa-solid fa-angle-down" style="color: #fff"></i>
+            </div>
+            <ul class="submenu">
+              <li><a href="subpage_03.html#tab01">게시판</a></li>
+              <li><a href="subpage_03.html#tab02">X파일(칼럼)</a></li>
+              <li><a href="subpage_03.html#tab03">유튜버 인증 리뷰</a></li>
+            </ul>
+          </li>
+          <li><a href="subpage_04.html">회사 소개</a></li>
+          <li><a href="#">로그인</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- //mobile header -->
+    <header id="header">
       <div class="logo">
-        <a href="#"><img src="../img/logo_nfnl_126_53.png" alt="로고이미지" /></a>
+        <a href="../../index.html"
+          ><img src="../img/logo_nfnl_126_53.png" alt="로고 이미지"
+        /></a>
       </div>
-      <div class="header_inner container">
-        <nav id="nav">
-          <ul>
-            <li><a href="subpage_01.html">이달의 음식</a></li> 
-            <li><a href="subpage_02.html">지역별 소개</a></li>
-            <li><a href="subpage_03.html">커뮤니티</a></li>
-            <li><a href="subpage_04.html">회사소개</a></li>
-          </ul>
-        </nav>
+      <div class="lnb">
+        <ul>
+          <li>
+            <a href="subpage_01.html">이달의 음식</a>
+          </li>
+          <li>
+            <a href="subpage_02_b1.html">지역별 소개</a>
+            <ul class="submenu2">
+              <li><a href="subpage_02_b1.html">지역별</a></li>
+              <li><a href="subpage_02_kr.html">음식별</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="subpage_03.html">커뮤니티</a>
+            <ul class="submenu2">
+              <li><a href="subpage_03.html#tab01">게시판</a></li>
+              <li><a href="subpage_03.html#tab02">X파일(칼럼)</a></li>
+              <li><a href="subpage_03.html#tab03">유튜버 인증 리뷰</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="subpage_04.html">회사소개</a>
+          </li>
+        </ul>
       </div>
-      <div id="gnb">
-        <input type="search" />
+      <div class="gnb">
+        <form class="search_box" role="search">
+          <label for="searchInput" class="ir_so">상품검색</label>
+          <button type="submit"><span class="ir_so">버튼</span></button>
+          <input type="text" id="searchInput" placeholder="장소 및 검색" />
+        </form>
         <a href="#">로그인</a>
       </div>
-    </header> -->
+    </header>
     <!-- //header -->
 
     <!-- main -->
@@ -148,7 +201,7 @@
         <div class="brand_inner">
           <img
             class="logo_img"
-            src="../img/logo_nfnl_E00000.png"
+            src="../img/sub_4/logo_nfnl_E00000.png"
             alt="로고이미지"
           />
           <div class="logo_txt">
@@ -178,29 +231,35 @@
         </div>
 
         <div class="color_inner">
-          <div class="item reveal active">
-            <img src="../img/nfnl_red_300.png" alt="NFNL RED : 열정" />
-            <div class="txt_left">
+          <div class="item reveal nfnlRed">
+            <img src="../img/sub_4/nfnl_red_300.png" alt="NFNL RED : 열정" />
+            <div class="txt_right">
               <p>식욕을 돋우는 레드 컬러는</p>
               <p><strong>맛집을 추격하는</strong></p>
               <p>NFNL의 열정을 나타냅니다.</p>
             </div>
           </div>
-          <div class="item reveal active reverse">
-            <img src="../img/nfnl_black_300.png" alt="NFNL black : 집착" />
-            <div class="txt_right">
+          <div class="item reveal">
+            <img
+              src="../img/sub_4/nfnl_black_300.png"
+              alt="NFNL black : 집착"
+            />
+            <div class="txt_left">
               <p>본질을 돋보이는 블랙 컬러는</p>
               <p><strong>진정한 맛집에 대한 집요함</strong>을 품고 있는</p>
               <p>NFNL의 집착을 나타냅니다.</p>
             </div>
           </div>
-          <div class="item reveal active">
-            <img src="../img/nfnl_white_300.png" alt="NFNL white : 신뢰" />
-            <div class="txt_left">
+          <div class="item reveal nfnlWhite">
+            <img
+              src="../img/sub_4/nfnl_white_300.png"
+              alt="NFNL white : 신뢰"
+            />
+            <div class="txt_right txt_right2">
               <p>정결한 화이트 컬러는</p>
               <p>
                 <strong>냉정한 심판 속</strong>에서 살아남은
-                <strong>진실된 맛집을 전달하는</strong>
+                <strong class="br">진실된 맛집을 전달하는</strong>
               </p>
               <p>NFNL의 신뢰를 나타냅니다.</p>
             </div>
@@ -280,7 +339,25 @@
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-    <script src="../../assets/javascript/myswiper.js"></script>
-    <script src="../../assets/javascript/company.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="../javascript/main_swiper.js"></script>
+    <!-- <script src="../javascript/myswiper.js"></script> -->
+    <script src="../javascript/sub_4_company.js"></script>
+
+    <script>
+      document.querySelectorAll(".container").forEach((c, i) => {
+        console.log(
+          "container",
+          i,
+          c.scrollWidth,
+          document.documentElement.clientWidth,
+        );
+
+        [...c.children].forEach((el) => {
+          console.log(el, el.scrollWidth, document.documentElement.clientWidth);
+        });
+      });
+    </script>
   </body>
 </html>
